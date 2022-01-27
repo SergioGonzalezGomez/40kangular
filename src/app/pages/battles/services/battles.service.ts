@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class BattlesService {
 
-    public battlesURL: string = "http://localhost:5000/battles";
+    public battlesURL: string = "https://40kangularserver.vercel.app/battles";
 
   constructor(private httpClient: HttpClient) { }
 

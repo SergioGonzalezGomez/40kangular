@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class LegionsService {
-  public legionsURL: string = "http://localhost:5000/legions";
+  public legionsURL: string = "https://40kangularserver.vercel.app/legions";
 
   constructor(private httpClient: HttpClient) { }
 
