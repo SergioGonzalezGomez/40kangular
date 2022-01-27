@@ -1,0 +1,6 @@
+<h2> Battles </h2>
+<div *ngIf="battles.length" class="battle-container">
+    <div *ngFor="let battle of battles" class="battle-container__card" style="background-image: url({{battle.img}}); background-size: cover; background-position: center" routerLink="{{battle._id}}">
+        <h6>{{battle.name}}</h6>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+
+
+  @import "../../../../styles.scss";
+
+  fieldset {
+      background-color: whitesmoke;
+      width: 30%;
+      display: block;
+      margin: auto;
+      border-radius: 5px;
+      justify-content: space-evenly;
+  }
+  button {
+      display: block;
+      margin: auto;
+  }
+  h6 {
+      
+      text-align: center;
+      margin-top: 40px;
+      color: $crawl;
+      text-shadow: 0 0 3px black, 1px 1px 5px $blue;
+      padding: 5px;
+      font-size: 20px;
+  }
+  
+  h2{
+    color: $crawl;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 40px;
+    text-shadow: 0 0 3px black, 1px 1px 5px $blue;
+      margin-bottom: 60px;
+  }
+  p {
+      color: $crawl;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  .error {
+    color: red;
+    text-align: center;
+    margin: 10px;
+  }

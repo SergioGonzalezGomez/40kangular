@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+//PALETTE
+$primary-color: #010101;
+$secondary-color: rgb(221, 220, 229);
+$transparent: rgba(19, 12, 14, 0.507);
+$blue: #7f5af0;
+$red: rgb(182, 69, 25);
+$crawl: rgb(229, 177, 58);
+$background: #000000;
+
+//RESET
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+//GLOBAL STYLES
+body {
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+
+}

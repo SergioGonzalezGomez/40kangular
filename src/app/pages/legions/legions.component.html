@@ -1,0 +1,7 @@
+<h2>Legions</h2>
+
+<div *ngIf="legions.length" class="legion-container">
+    <div *ngFor="let legion of legions" class="legion-container__card" style="background-image: url({{legion.img}}); background-size: cover; background-position: center" routerLink="{{legion._id}}">
+        <h6>{{legion.name}}</h6>
+    </div>
+</div>

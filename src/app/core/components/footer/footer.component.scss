@@ -1,0 +1,25 @@
+@import "../../../../styles.scss";
+
+footer {
+    width: 100%;
+    bottom: 0;
+    height: 10%;
+    margin-top: 10px;
+    .footer-container {
+        text-align: justify;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        font-size: 15px;
+        &__creator {
+            color: $blue;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .footer-container {
+      width: 100%;
+
+    }
+  }

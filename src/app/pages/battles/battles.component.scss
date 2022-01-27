@@ -1,0 +1,41 @@
+@import "../../../styles.scss";
+
+h6 {
+    
+    text-align: center;
+    margin: 8px;
+    color: $crawl;
+    text-shadow: 0 0 3px black, 1px 1px 5px $blue;
+    padding: 5px;
+    font-size: 20px;
+}
+
+h2{
+  color: $crawl;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 22px;
+  margin: 10px;
+  text-shadow: 0 0 3px black, 1px 1px 5px $blue;
+
+}
+.battle-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    &__card {
+        border: solid 2px $blue;
+        border-radius: 5px;
+        margin: 20px;
+        height: 400px;
+        width: 550px;
+        
+        &:hover{
+            cursor: pointer;
+          }
+    }
+}

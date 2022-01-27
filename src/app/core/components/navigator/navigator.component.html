@@ -1,0 +1,9 @@
+<nav class="navigator-container">
+    <ul class="navigator-list">
+        <li class="navigator-list__item" *ngFor="let element of navigator">
+            <a class="navigator-list__item--link" routerLink="{{ element.link }}">
+                {{element.name}}
+            </a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,30 @@
+@import "../../../../styles.scss";
+.navigator-container {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-color;
+    height: 10vh;
+    width: 100%;
+
+    .navigator-list {
+        display:flex;
+        justify-content: space-around;
+        width: 100%;
+
+        &__item {
+            padding: 10px;
+
+            &--link {
+                color: $blue;
+                text-transform: uppercase;
+                font-weight: bold;
+
+                &:hover {
+                    color: red;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+<div *ngIf="battle" class="battle-container">
+    <div class="battle-container__card">
+        <h2>{{battle.name}}</h2>
+        <img src="{{battle.img}}" alt="{{battle.name}}" />
+        <h3>Year: {{battle.year}}</h3>
+        <h5>{{battle.place}}</h5>
+        <p>Loyalist Legions: </p>
+        <ul>
+            <li *ngFor="let legion of battle.loyalistlegions">
+                {{legion.number}} - {{legion.name}}
+            </li>
+        </ul>
+        <p>Traitor Legions: </p>
+        <ul>
+            <li *ngFor="let legion of battle.traitorlegions">
+                {{legion.number}} - {{legion.name}}
+            </li>
+        </ul>
+        <h4>VICTORY: {{battle.victory}}</h4>
+    </div>
+</div>

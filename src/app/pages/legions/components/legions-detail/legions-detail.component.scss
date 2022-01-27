@@ -1,0 +1,49 @@
+@import "../../../../../styles.scss";
+
+.legion-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    h2 {
+        color: $blue;
+        
+    }
+    &__card {
+        border: solid 2px $blue;
+        border-radius: 5px;
+        margin: 20px;
+        background-color: $background;
+        width: 50%;
+
+        h2 {
+            color: $crawl;
+            margin: 10px;
+        }
+
+        img {
+            width: 60%;
+            border-radius: 5px;
+            border: solid 2px $blue;
+            
+        }
+        h3 {
+            padding: 8px;
+            margin: 8px;
+            color: $crawl;
+            text-shadow: 0 0 3px black, 1px 1px 5px $blue;
+        }
+        h6 {
+            padding: 8px;
+            margin: 8px;
+            color: $crawl;
+            text-shadow: 0 0 3px black, 1px 1px 5px $blue;
+        }
+
+        p {
+            padding: 8px;
+            margin: 8px;
+            color: $crawl;
+        }
+    }
+}
